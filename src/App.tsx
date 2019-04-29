@@ -177,4 +177,5 @@ export class App extends Component<{}, AppState> {
  * Parent and Owner - RenderLogger - no own DOM, see in React dev tools
  * didUpdate setState risk (replace condition with this.state !== prevState)
  * Optimize setSelectedPart to render only if state changed
+ * Show single directional flow - feature - when content is selected - add opacity to it
  */

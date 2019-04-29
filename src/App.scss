@@ -30,5 +30,6 @@
     position: absolute;
     border: 3px dashed red;
     transition: top .15s ease-in-out, height .2s ease-in-out;
+    pointer-events: none;
   }
 }
