@@ -134,7 +134,7 @@ export class App extends Component<{}, AppState> {
               </div>
               <div className="color-control">
                 <span>Color: </span>
-                <input value={selectedStyle.color} onChange={this.setColor} />
+                <input value={selectedStyle.color} onChange={this.setColor} type="color" />
               </div>
             </>
           )}

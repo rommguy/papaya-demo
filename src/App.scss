@@ -6,6 +6,7 @@
   > .preview {
     position: relative;
     flex: 1;
+    padding-right: 30px;
 
     #content {
       text-align: left;
@@ -23,6 +24,10 @@
 
     > div {
       padding: 15px 0;
+    }
+
+    input {
+      font-size: 18px;
     }
   }
 
